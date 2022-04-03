@@ -30,6 +30,7 @@ $data = array(
 $flag = $obj->newBudget($data);
 $nameEvent = $_POST['evento'];
 $password = $_POST['telefono'];
+$route = PATH;
 if ($flag == 1) {
 	$subject= "UBK Eventos nueva reserva para evento " . $nameEvent;
 	$email = $_POST['email'];
@@ -56,7 +57,7 @@ if ($flag == 1) {
 		                  <td style='padding:0 0 36px 0;color:#153643;'>
 		                    <h1 style='font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;'>UBK Eventos</h1>
 		                    <p style='margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;'>". $nombre." su solicitud para el evento " . $nameEvent . " fue registrada con éxito, puede revisar su reserva en el siguiente link.</p>
-		                    <p style='margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;'><a href='https://eventosubk.online/usuario/login' style='color:#ee4c50;text-decoration:underline;'>Reservas</a></p>
+		                    <p style='margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;'><a href='".$route."usuario/login' style='color:#ee4c50;text-decoration:underline;'>Reservas</a></p>
 		                  </td>
 		                </tr>
 		                <tr>
@@ -135,7 +136,7 @@ if ($flag == 1) {
 		                  <td style='padding:0 0 36px 0;color:#153643;'>
 		                    <h1 style='font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;'>UBK Eventos</h1>
 		                    <p style='margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;'>". $nombre." su solicitud para el evento " . $nameEvent . " fue registrada con éxito, puede revisar su reserva en el siguiente link.</p>
-		                    <p style='margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;'><a href='https://eventosubk.online/usuario/login' style='color:#ee4c50;text-decoration:underline;'>Reservas</a></p>
+		                    <p style='margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;'><a href='".$route."usuario/login' style='color:#ee4c50;text-decoration:underline;'>Reservas</a></p>
 		                  </td>
 		                </tr>
 		              </table>
