@@ -1,0 +1,264 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	color: #333;
+	font-family:roboto,lexend tera;
+    background: #F8F9FA;
+}
+a {
+    color: #AA0606;
+}
+a:hover {
+    color: #AA0606;
+}
+.section-padding {
+    padding: 20px 5vw;
+}
+.section-heading {
+    font-size: 2rem !important;
+    font-weight: 900;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+a {
+    text-decoration: none;
+}
+.center {
+    width: 100%;
+    margin: auto;
+}
+/* Footer */
+footer {
+    background: #212121;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
+/* --- Main ---*/
+.slideHome .carousel {
+	width: 100%;
+	height: 90vh;
+    position: relative;
+}
+.carousel-item {
+ 	height: 90vh;
+    background: #000;
+    color:#fff;
+    position: relative;
+}
+.carousel-inner .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 40vh;
+}
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size:cover; 
+    opacity: 0.5;
+}
+/* Events */
+.event-video{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.event-video iframe, .event-video object, .event-video embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* service */
+.service {
+    width: 100%;
+    margin: auto;
+}
+.service img{
+    width: 100%;
+    height: 35vh;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 5px;
+}
+/* Login */
+.botn {
+   padding-top: 20px;
+}
+.category-admin ul li{
+    margin-right: 1%;
+}
+.eventImg {
+    width: 300px;
+    max-width: 300px !important;
+}
+#galery .col-lg-4{
+    margin: 0 !important;
+    padding: 10px;
+}
+#galery img {
+    width: 100%;
+    height: 250px;
+}
+#galery img:hover {
+    border: 5px solid #f7f7f7;
+}
+.serviceEvent small {
+    font-weight: 700;
+    color: #545454;
+}
+.serviceEvent h5{
+    color: #AA0606;
+}
+.serviceEvent h6{
+    color: #D97211;
+}
+.serviceEvent a{
+    color: #AA0606;
+}
+.serviceEvent{
+    font-size: 14px !important;
+    text-align: justify;
+}
+.serviceEvent strong{
+    color: #AA0606;
+    font-size: 1.1em;
+}
+.serviceEvent img {
+    height: 200px !important;
+}
+.alertEvent {
+    font-size: 13px;
+    text-align: justify;
+}
+.alertEvent small{
+    font-size: 10px;
+    font-weight: 600;
+}
+@media screen and (max-width: 1366px) {
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+}
+.font-title-menu{
+    color: #AA0606;
+    font-weight: 600;
+}
+.font-Name-menu{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.font-Price-menu{
+    color: #D97211;
+    font-weight: 600;
+    font-size: 0.84rem;
+}
+.cotiza-right{
+    text-align: right !important;
+    font-weight: 600;
+}
+.cotiza{
+    font-weight: 700;
+}
+.table-cotizaborde{
+    border: solid #F8F9FA;
+}
+.text-small{
+    font-size: 12px;
+}
+p a{
+    color: #AA0606;
+}
+p a:hover{
+    color: #AA0606;
+}
+.container-profile{
+    width: 300px;
+    min-height: 60vh;
+    margin: auto;
+    text-align: center;
+    background: #C9C9C9;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.container-profile img{
+    margin: 20px;
+    max-width: 150px;
+    background: #fff;
+    border-radius: 50%;
+}
+.events img{
+    height: 250px !important;
+}
+.invalid {
+    background:url(../img/invalid.png) no-repeat 0 50%;
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.valid {
+    background:url(../img/valid.png) no-repeat 0 50%;
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}
+#pswd_info {
+    position:absolute;
+    bottom:-75px;
+    bottom: -115px\9; /* IE Specific */
+    right:101%;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+}
+#pswd_info::before {
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+#changePassword ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.form-text span {
+    color: red;
+}
+.eventosNewService, .eventosUpdateService{
+    display: none;
+}
