@@ -213,7 +213,7 @@ use PHPMailer\PHPMailer\Exception;
 			    $mail->Host       = 'smtp.hostinger.com';                     
 			    $mail->SMTPAuth   = true;                                   
 			    $mail->Username   = 'reservas@eventosubk.online';                     
-			    $mail->Password   = '0Ctubr314*';                               
+			    $mail->Password   = '0Ctubr314**';                               
 			    $mail->SMTPSecure = 'ssl';            
 			    $mail->Port       = 465;                                    
 			    $mail->setFrom('reservas@eventosubk.online', 'Ubk Eventos');
